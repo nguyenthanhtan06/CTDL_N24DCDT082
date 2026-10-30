@@ -1,4 +1,4 @@
-THÔNG TIN NỘP ĐỀ TÀI CÁ NHÂN — BẢN NHÁP, CHƯA ĐỦ MINH CHỨNG
+THÔNG TIN NỘP ĐỀ TÀI CÁ NHÂN — TRẠNG THÁI CÒN THIẾU MINH CHỨNG
 INT13185 — Nhóm 03
 
 Họ và tên: Nguyễn Thành Tân
@@ -7,32 +7,23 @@ Lớp: D24CQDT01-N
 Mã đề: DT067
 Tên đề: Tính giá trị biểu thức hậu tố bằng ngăn xếp
 
-URL GitHub thật: CHƯA CÓ
-SHA C đầy đủ của mã/test/input dùng chạy và chụp ảnh: CHƯA CÓ
-Permalink hàm chính tại C: CHƯA CÓ
-Permalink tệp kiểm thử tại C: CHƯA CÓ
-SHA S đầy đủ của phiên bản nộp cuối: CHƯA CÓ
-Mã/test/input không đổi giữa C và S: CHƯA XÁC NHẬN
+URL GitHub: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (repo riêng)
+Commit tải bộ hồ sơ hiện tại: e2e12270db6c0333876f4c417740ba8ec08d7884
+SHA C của mã đã dùng chụp A01–A09: CHƯA XÁC LẬP; ZIP 24/10 chưa đồng bộ với app.py hiện tại.
+Permalink hàm chính và tệp kiểm thử tại C: CHƯA CÓ.
+SHA S phiên bản nộp cuối: CHƯA CÓ; chưa clone và kiểm tra lại.
 
-Ngôn ngữ và phiên bản đã kiểm: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
-Lệnh chạy ví dụ 1: python -m streamlit run app.py; nhập 5 6 2 + * 12 4 / - → 37
-Lệnh chạy ví dụ 2: python -m streamlit run app.py; nhập 2 3 2 ^ ^ → 512
-Lệnh nhập biểu thức mới: mặc định Tự nhận dạng; ví dụ 2+4*3 → 14
-Lệnh biên dịch: Không áp dụng (Python)
-Lệnh chạy bộ kiểm thử: python -m unittest -v test_postfix.py
-Số ca kiểm độc lập trong bộ đề: 12
-Số phép kiểm đạt / tổng số phép kiểm: 12/12 ca của bộ đề PASS; unittest 5/5 phương thức PASS
+Ngôn ngữ và phiên bản kiểm lần 24/10: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5.
+Lệnh chạy: python -m streamlit run app.py
+Lệnh cài: python -m pip install streamlit pandas
+Ví dụ 1: 5 6 2 + * 12 4 / - → 37
+Ví dụ 2: 2 3 2 ^ ^ → 512
+Bộ kiểm thử trong ZIP 24/10: dashboard 12/12 PASS; unittest 5/5 phương thức PASS.
+App.py hiện tại: run_test_suite() đạt 12/12 PASS ngày 30/10/2026 (Python 3.12.14, Streamlit 1.66.1, Pandas 3.0.6).
 
-Đã có đủ 11 ảnh cá nhân trong báo cáo và ZIP: Chưa
-Ảnh A10 clone/chạy C đã có: Chưa
-Đã clone SHA S vào thư mục mới và chạy lại: Chưa
-Tóm tắt chạy lại hai ví dụ và test từ S: Chưa thực hiện; chưa có SHA S
-Giảng viên truy cập được GitHub và permalink: Chưa (chưa có repo)
+Ảnh A01–A09 đã có; A10 clone sạch và A11 ảnh GitHub chưa có.
+Repo chứa bốn tệp hồ sơ và ảnh A01–A09; ZIP hiện tại chưa đồng bộ với app.py chụp ảnh.
+Giảng viên truy cập repo: Chưa xác nhận (repo đang riêng tư; cấp quyền hoặc đổi visibility theo yêu cầu của giảng viên).
+Ngày cập nhật trạng thái GitHub: 30/10/2026.
 
-Tên tệp Word nộp: N24DCDT082_DT067_NguyenThanhTan_BaoCao.docx
-Tên tệp PDF nộp: N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf
-Tên tệp ZIP mã nguồn nộp: N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip
-Tên tệp TXT nộp: N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt
-Ngày hoàn tất: CHƯA HOÀN TẤT — 23/10/2026
-
-Trạng thái: bộ bốn tệp đã xuất theo tên quy định nhưng chưa đủ điều kiện nộp. Còn thiếu 11 ảnh thật, repo GitHub/URL, SHA C/S và permalink, clone C/S chạy sạch; báo cáo cần xóa phần hướng dẫn mẫu và cập nhật danh mục cuối.
+Trạng thái: chưa phải bộ hồ sơ nộp hoàn chỉnh; cần đồng bộ ZIP, xác lập SHA C/S, permalink mã/test, clone sạch, chụp A10/A11 và xin xác nhận cam đoan/khoa trên bìa.
