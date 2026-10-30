@@ -1,29 +1,47 @@
-THÔNG TIN NỘP ĐỀ TÀI CÁ NHÂN — TRẠNG THÁI CÒN THIẾU MINH CHỨNG
-INT13185 — Nhóm 03
+THÔNG TIN NỘP — INT13185 / DT067
 
-Họ và tên: Nguyễn Thành Tân
+Sinh viên: Nguyễn Thành Tân
 MSSV: N24DCDT082
-Lớp: D24CQDT01-N
-Mã đề: DT067
-Tên đề: Tính giá trị biểu thức hậu tố bằng ngăn xếp
+Lớp: D24CQDT01-N (Nhóm 03)
+Đề tài: DT067 — Tính giá trị biểu thức hậu tố bằng ngăn xếp
 
-URL GitHub: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (repo riêng)
-Commit tải bộ hồ sơ hiện tại: e2e12270db6c0333876f4c417740ba8ec08d7884
-SHA C của mã đã dùng chụp A01–A09: CHƯA XÁC LẬP; ZIP 24/10 chưa đồng bộ với app.py hiện tại.
-Permalink hàm chính và tệp kiểm thử tại C: CHƯA CÓ.
-SHA S phiên bản nộp cuối: CHƯA CÓ; chưa clone và kiểm tra lại.
+THƯ MỤC NỘP
+D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT082_DT067_NguyenThanhTan
 
-Ngôn ngữ và phiên bản kiểm lần 24/10: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5.
-Lệnh chạy: python -m streamlit run app.py
-Lệnh cài: python -m pip install streamlit pandas
-Ví dụ 1: 5 6 2 + * 12 4 / - → 37
-Ví dụ 2: 2 3 2 ^ ^ → 512
-Bộ kiểm thử trong ZIP 24/10: dashboard 12/12 PASS; unittest 5/5 phương thức PASS.
-App.py hiện tại: run_test_suite() đạt 12/12 PASS ngày 30/10/2026 (Python 3.12.14, Streamlit 1.66.1, Pandas 3.0.6).
+TỆP CHÍNH
+- N24DCDT082_DT067_NguyenThanhTan_BaoCao.docx — báo cáo theo mẫu Word; sinh viên rà soát thông tin khoa/ngành và ký cam đoan.
+- N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf — bản xem/in từ báo cáo Word.
+- N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip — mã nguồn, requirements, README, test và ảnh A01–A09; app.py đồng bộ với commit dưới đây.
+- N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt — tệp thông tin này.
+- Minh_chung\01_vi_du_1.png … 09_tong_ket_kiem_thu.png — ảnh A01–A09.
 
-Ảnh A01–A09 đã có; A10 clone sạch và A11 ảnh GitHub chưa có.
-Repo chứa bốn tệp hồ sơ và ảnh A01–A09; ZIP hiện tại chưa đồng bộ với app.py chụp ảnh.
-Giảng viên truy cập repo: Chưa xác nhận (repo đang riêng tư; cấp quyền hoặc đổi visibility theo yêu cầu của giảng viên).
-Ngày cập nhật trạng thái GitHub: 30/10/2026.
+GITHUB VÀ PHIÊN BẢN
+Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
+Trạng thái: riêng tư; cấp quyền cho giảng viên nếu cần truy cập.
+Commit mã nguồn C: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
+Commit clone kiểm chứng S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
+Permalink commit: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/commit/17d0a9c68d8b915fa9d0327eecef36e57efa552a
+Permalink hàm evaluate_postfix_with_trace: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/app.py#L135
+Permalink test: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/test_postfix.py#L7
+SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
 
-Trạng thái: chưa phải bộ hồ sơ nộp hoàn chỉnh; cần đồng bộ ZIP, xác lập SHA C/S, permalink mã/test, clone sạch, chụp A10/A11 và xin xác nhận cam đoan/khoa trên bìa.
+CHẠY VÀ KIỂM THỬ
+Yêu cầu: Python 3.12 trở lên.
+  python -m pip install -r requirements.txt
+  python -m streamlit run app.py
+  python -m unittest -v test_postfix.py
+  python -c "import app; app.run_test_suite()"
+Môi trường clone: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5.
+Kết quả clone sạch 30/10/2026: dashboard 12/12 PASS; unittest 5/5 phương thức PASS (12 subTest độc lập). Log: clone-S-test-results.txt.
+
+VÍ DỤ ĐỐI CHIẾU
+5 6 2 + * 12 4 / - → 37
+2 3 2 ^ ^ → 512
+0 7 - 2 / → -3 (chia nguyên cắt về 0)
+
+TRẠNG THÁI MINH CHỨNG
+A01–A09: có trong Minh_chung và ZIP.
+A10: chưa có ảnh chụp clone; có log clone-S-test-results.txt.
+A11: chưa có ảnh chụp GitHub; URL/permalink ở trên là thật.
+Chưa xác nhận: chữ ký cam đoan và thông tin khoa/ngành; repo riêng tư chưa cấp quyền giảng viên.
+Không điền điểm rubric; giảng viên chấm theo bằng chứng.

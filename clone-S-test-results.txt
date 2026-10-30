@@ -1,0 +1,15 @@
+CLEAN CLONE VERIFICATION — DT067
+Date: 2026-10-30
+Repository: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (private)
+Clone directory used: C:\Users\n24dc\.codex\visualizations\2026\10\22\01a16134-adb4-7e42-8103-c7b54b90b79b\clean_clone_C
+Checked-out commit (SHA S): 17d0a9c68d8b915fa9d0327eecef36e57efa552a
+Source file SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
+Environment: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
+Commands run from clone root:
+  python -m unittest -v test_postfix.py
+  python -c "import app; app.run_test_suite()"
+Results:
+  unittest: 5 tests passed, 0 failed; first method includes 12 independent subtests.
+  dashboard suite: 12/12 PASS, 0 FAIL.
+Working tree was clean before running; Python created only __pycache__ after tests.
+Screenshot A10 of the clone run was not captured. This text log records the verified run; do not present it as a screenshot.

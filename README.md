@@ -15,14 +15,15 @@ python -m streamlit run app.py
 
 ```powershell
 python -m unittest -v test_postfix.py
+python -c "import app; app.run_test_suite()"
 ```
 
-Ứng dụng có dashboard 12 ca DT067. Bộ `unittest` xác minh 12 ca qua subTest và các kiểm tra mở rộng. Kết quả chạy được lưu trong `test-results.txt`.
+Đã kiểm clone sạch tại commit `17d0a9c68d8b915fa9d0327eecef36e57efa552a`: dashboard 12/12 PASS; unittest 5/5 phương thức PASS (12 subTest độc lập). Chi tiết ở `clone-S-test-results.txt` và `test-results.txt`.
 
 ## Ảnh minh chứng
 
-Ảnh A01–A09 trong `docs/anh_ket_qua/` được chụp từ ứng dụng hiện tại. A10 clone sạch và A11 trang repo chưa có ảnh trong gói này; không dùng ảnh giả làm bằng chứng.
+A01–A09 nằm trong `docs/anh_ket_qua/`. A10/A11 chưa có ảnh chụp; không dùng ảnh giả. A10 có log clone kiểm thử.
 
 ## GitHub
 
-Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (đang riêng tư). Xem `N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt` để biết trạng thái SHA C/S, permalink và các mục còn thiếu. ZIP được đồng bộ với `app.py` ở phiên bản này.
+Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (đang riêng tư). Gói ZIP đồng bộ với `app.py`; SHA-256 và các permalink nằm trong `N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt`. Cần cấp quyền cho giảng viên nếu họ cần mở repo.
