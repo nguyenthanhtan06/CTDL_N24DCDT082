@@ -10,7 +10,7 @@ D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT
 
 TỆP CHÍNH
 - N24DCDT082_DT067_NguyenThanhTan_BaoCao.docx — báo cáo theo mẫu Word; sinh viên rà soát thông tin khoa/ngành và ký cam đoan.
-- N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf — bản xem/in từ báo cáo Word.
+- PDF: chưa xuất lại được từ Word trong phiên này; không nộp PDF cũ vì chưa khớp với Word đã cập nhật.
 - N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip — mã nguồn, requirements, README, test và ảnh A01–A09; app.py đồng bộ với commit dưới đây.
 - N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt — tệp thông tin này.
 - Minh_chung\01_vi_du_1.png … 09_tong_ket_kiem_thu.png — ảnh A01–A09.
@@ -45,3 +45,4 @@ A10: chưa có ảnh chụp clone; có log clone-S-test-results.txt.
 A11: chưa có ảnh chụp GitHub; URL/permalink ở trên là thật.
 Chưa xác nhận: chữ ký cam đoan và thông tin khoa/ngành; repo riêng tư chưa cấp quyền giảng viên.
 Không điền điểm rubric; giảng viên chấm theo bằng chứng.
+
