@@ -1,7 +1,7 @@
 CLEAN CLONE VERIFICATION — DT067
 Ngày chạy test: 30/10/2026
 Ngày chụp A10/A11: 31/10/2026
-Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082 (riêng tư)
+Repo công khai: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
 SHA C/S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
 SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
 Môi trường: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
@@ -9,4 +9,4 @@ Lệnh: python -m unittest -v test_postfix.py
 Kết quả: Ran 5 tests — OK; phương thức bắt buộc có 12 subTest độc lập.
 Dashboard: 12/12 PASS, 0 FAIL; VD01, VD02, TK01, TK02, BIEN01–03, LOI01, KT09–12 đều PASS.
 Ảnh A10: anh_ket_qua/10_clone_sach_chay_lai.png — terminal cho thấy SHA, 5/5 unittest và TOTAL 12/12 PASS.
-Ảnh A11: anh_ket_qua/11_github_repo_commit.png — repo riêng, SHA 17d0a9c và thông điệp commit trên GitHub.
+Ảnh A11: anh_ket_qua/11_github_repo_commit.png — ảnh lịch sử chụp khi repo riêng tư; trạng thái repo hiện tại là công khai.

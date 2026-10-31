@@ -8,21 +8,24 @@ THƯ MỤC NỘP
 D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT082_DT067_NguyenThanhTan
 
 CÁC TỆP
-Word cập nhật có A01–A11: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT_A10_A11.docx
-SHA-256 Word: CE4EC2C44FBC8B61557232222B5A5A9E5007CD37501194111914E92D647377F8
+Word cập nhật A01–A11: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT_A10_A11.docx
+SHA-256 Word: F7B8FF7F4A55A2A2C1043BE96CB9B317E7A7D7A8F5666797536876FEAF70287E
+PDF cuối 46 trang: N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf
+SHA-256 PDF: 685A12206AE4E0721590431F5B85693426E0558BE1BCE9A247DCF5A088336A23
 ZIP mã nguồn: N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip
+SHA-256 ZIP: B94F5C2E2136BB54AD2A0A10E80AFAF15763CA34CAB661892254E763C8CF2BB7
 TXT: N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt
 Ảnh A01–A11: thư mục Minh_chung và trong ZIP.
-PDF mới: chưa xuất; không nộp file cũ có hậu tố PDF_CU_KHONG_NOP.
+PDF được xuất từ bản Word cuối ngày 31/10/2026 bằng Microsoft Word; mục lục đã cập nhật và 46 trang đã rà soát. Không dùng PDF cũ có hậu tố PDF_CU_KHONG_NOP.
 
 GITHUB VÀ PHIÊN BẢN
-Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
-Repo riêng tư; cấp quyền cho giảng viên nếu họ cần truy cập.
+Repo công khai: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
 Commit mã C và clone kiểm chứng S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
 Permalink commit: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/commit/17d0a9c68d8b915fa9d0327eecef36e57efa552a
 Permalink hàm evaluate_postfix_with_trace: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/app.py#L135
 Permalink unittest: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/test_postfix.py#L7
 SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
+A11 là ảnh lịch sử chụp khi repo còn riêng tư; repo đã công khai ngày 31/10/2026.
 
 CHẠY VÀ KIỂM THỬ
 Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
@@ -34,5 +37,5 @@ Log: clone-S-test-results.txt; test-results.txt.
 
 TRẠNG THÁI MINH CHỨNG
 A01–A11: đã có ảnh thật.
-Còn sinh viên rà soát/ký cam đoan, xác nhận khoa/ngành; cấp quyền repo cho giảng viên nếu cần; xuất PDF mới và cập nhật mục lục/số trang.
+Còn sinh viên rà soát/ký cam đoan, xác nhận khoa/ngành, xác nhận phần tự cài, nguồn tham khảo và công cụ hỗ trợ trước khi nộp.
 Không điền điểm rubric.

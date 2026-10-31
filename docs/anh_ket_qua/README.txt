@@ -9,5 +9,5 @@ A07: BIEN03 — 100 0 ^ → 1
 A08: LOI01 — 4 0 / → lỗi chia cho 0
 A09: TEST_ALL — dashboard 12/12 PASS
 A10: clone sạch — unittest 5/5; dashboard 12/12 PASS; SHA S 17d0a9c68d8b915fa9d0327eecef36e57efa552a
-A11: repo GitHub riêng và commit 17d0a9c68d8b915fa9d0327eecef36e57efa552a
+A11: ảnh GitHub chụp khi repo còn riêng tư; repo đã công khai ngày 31/10/2026.
 Ảnh A01–A11 là ảnh thật, lưu trong thư mục này.
