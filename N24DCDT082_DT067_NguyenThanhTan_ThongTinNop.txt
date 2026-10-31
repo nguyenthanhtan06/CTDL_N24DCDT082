@@ -46,3 +46,10 @@ A11: chưa có ảnh chụp GitHub; URL/permalink ở trên là thật.
 Chưa xác nhận: chữ ký cam đoan và thông tin khoa/ngành; repo riêng tư chưa cấp quyền giảng viên.
 Không điền điểm rubric; giảng viên chấm theo bằng chứng.
 
+
+CẬP NHẬT HỒ SƠ NGÀY 31/10/2026
+Bản Word đã rà soát tiếp: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT.docx (SHA-256: 3AC8DD1FD5B0CAF1486755A98DA5B3131D9D24BFBB0F35695A91E96542E1F79B). Tệp BaoCao.docx chuẩn đang bị khóa bởi ứng dụng Word nên chưa thể thay. Sau khi đóng bản đang mở, dùng bản CAP_NHAT làm bản chính và xuất PDF mới. Không nộp PDF có hậu tố PDF_CU_KHONG_NOP.
+
+TÌNH TRẠNG NỘP
+Báo cáo hiện có A01–A09; còn ảnh A10/A11, chữ ký cam đoan, xác nhận khoa/ngành và PDF mới. Không điền điểm rubric.
+
