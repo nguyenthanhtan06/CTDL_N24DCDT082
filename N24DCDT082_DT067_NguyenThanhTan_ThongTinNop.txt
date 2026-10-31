@@ -5,18 +5,18 @@ Lớp: D24CQDT01-N (Nhóm 03)
 Đề tài: DT067 — Tính giá trị biểu thức hậu tố bằng ngăn xếp
 
 THƯ MỤC NỘP
-D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT082_DT067_NguyenThanhTan
+D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT082_DT067_NGUYENTHANHTAN_HO_SO_NOP_FINAL
 
 CÁC TỆP
-Word cập nhật A01–A11: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT_A10_A11.docx
-SHA-256 Word: F7B8FF7F4A55A2A2C1043BE96CB9B317E7A7D7A8F5666797536876FEAF70287E
-PDF cuối 46 trang: N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf
-SHA-256 PDF: 685A12206AE4E0721590431F5B85693426E0558BE1BCE9A247DCF5A088336A23
+Word cập nhật A01–A11, có lời cam đoan: N24DCDT082_DT067_NguyenThanhTan_BaoCao.docx
+SHA-256 Word: 9C78E59E84233166656F0AC2FFE1757461336526B0CDA0F7DB044BACA1688CA8
+PDF cuối 46 trang, đồng bộ với bản có lời cam đoan: N24DCDT082_DT067_NguyenThanhTan_BaoCao.pdf
+SHA-256 PDF: C32C62F811EDCAECF9955FD796DD438FC2247ACC8B118525B1C4353C1EBB5F56
 ZIP mã nguồn: N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip
 SHA-256 ZIP: B94F5C2E2136BB54AD2A0A10E80AFAF15763CA34CAB661892254E763C8CF2BB7
 TXT: N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt
 Ảnh A01–A11: thư mục Minh_chung và trong ZIP.
-PDF được xuất từ bản Word cuối ngày 31/10/2026 bằng Microsoft Word; mục lục đã cập nhật và 46 trang đã rà soát. Không dùng PDF cũ có hậu tố PDF_CU_KHONG_NOP.
+PDF được xuất từ bản Word đã chuẩn hóa dấu gạch ngang dài; đã thay 81 dấu em dash bằng dấu hyphen. PDF có 46 trang và đã rà soát trang lời cam đoan. Không dùng PDF cũ có hậu tố PDF_CU_KHONG_NOP.
 
 GITHUB VÀ PHIÊN BẢN
 Repo công khai: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
@@ -37,5 +37,5 @@ Log: clone-S-test-results.txt; test-results.txt.
 
 TRẠNG THÁI MINH CHỨNG
 A01–A11: đã có ảnh thật.
-Còn sinh viên rà soát/ký cam đoan, xác nhận khoa/ngành, xác nhận phần tự cài, nguồn tham khảo và công cụ hỗ trợ trước khi nộp.
-Không điền điểm rubric.
+Sinh viên cần rà soát nội dung, ghi ngày và ký lời cam đoan; đồng thời xác nhận khoa/ngành, phần tự cài, nguồn tham khảo và công cụ hỗ trợ trước khi nộp.
+Không điền điểm rubric.\n
