@@ -1,5 +1,4 @@
 THÔNG TIN NỘP — INT13185 / DT067
-
 Sinh viên: Nguyễn Thành Tân
 MSSV: N24DCDT082
 Lớp: D24CQDT01-N (Nhóm 03)
@@ -8,48 +7,32 @@ Lớp: D24CQDT01-N (Nhóm 03)
 THƯ MỤC NỘP
 D:\Downloads\PHAT_CHO_SINH_VIEN_2026_10_17\PHAT_CHO_SINH_VIEN_2026_10_17\N24DCDT082_DT067_NguyenThanhTan
 
-TỆP CHÍNH
-- N24DCDT082_DT067_NguyenThanhTan_BaoCao.docx — báo cáo theo mẫu Word; sinh viên rà soát thông tin khoa/ngành và ký cam đoan.
-- PDF: chưa xuất lại được từ Word trong phiên này; không nộp PDF cũ vì chưa khớp với Word đã cập nhật.
-- N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip — mã nguồn, requirements, README, test và ảnh A01–A09; app.py đồng bộ với commit dưới đây.
-- N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt — tệp thông tin này.
-- Minh_chung\01_vi_du_1.png … 09_tong_ket_kiem_thu.png — ảnh A01–A09.
+CÁC TỆP
+Word cập nhật có A01–A11: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT_A10_A11.docx
+SHA-256 Word: CE4EC2C44FBC8B61557232222B5A5A9E5007CD37501194111914E92D647377F8
+ZIP mã nguồn: N24DCDT082_DT067_NguyenThanhTan_MaNguon.zip
+TXT: N24DCDT082_DT067_NguyenThanhTan_ThongTinNop.txt
+Ảnh A01–A11: thư mục Minh_chung và trong ZIP.
+PDF mới: chưa xuất; không nộp file cũ có hậu tố PDF_CU_KHONG_NOP.
 
 GITHUB VÀ PHIÊN BẢN
 Repo: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082
-Trạng thái: riêng tư; cấp quyền cho giảng viên nếu cần truy cập.
-Commit mã nguồn C: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
-Commit clone kiểm chứng S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
+Repo riêng tư; cấp quyền cho giảng viên nếu họ cần truy cập.
+Commit mã C và clone kiểm chứng S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
 Permalink commit: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/commit/17d0a9c68d8b915fa9d0327eecef36e57efa552a
 Permalink hàm evaluate_postfix_with_trace: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/app.py#L135
-Permalink test: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/test_postfix.py#L7
+Permalink unittest: https://github.com/nguyenthanhtan06/CTDL_N24DCDT082/blob/17d0a9c68d8b915fa9d0327eecef36e57efa552a/test_postfix.py#L7
 SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
 
 CHẠY VÀ KIỂM THỬ
-Yêu cầu: Python 3.12 trở lên.
-  python -m pip install -r requirements.txt
-  python -m streamlit run app.py
-  python -m unittest -v test_postfix.py
-  python -c "import app; app.run_test_suite()"
-Môi trường clone: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5.
-Kết quả clone sạch 30/10/2026: dashboard 12/12 PASS; unittest 5/5 phương thức PASS (12 subTest độc lập). Log: clone-S-test-results.txt.
-
-VÍ DỤ ĐỐI CHIẾU
-5 6 2 + * 12 4 / - → 37
-2 3 2 ^ ^ → 512
-0 7 - 2 / → -3 (chia nguyên cắt về 0)
+Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
+Cài: python -m pip install -r requirements.txt
+Chạy web: python -m streamlit run app.py
+Unittest: python -m unittest -v test_postfix.py — 5/5 phương thức PASS (12 subTest độc lập)
+Dashboard: 12/12 PASS, 0 FAIL.
+Log: clone-S-test-results.txt; test-results.txt.
 
 TRẠNG THÁI MINH CHỨNG
-A01–A09: có trong Minh_chung và ZIP.
-A10: chưa có ảnh chụp clone; có log clone-S-test-results.txt.
-A11: chưa có ảnh chụp GitHub; URL/permalink ở trên là thật.
-Chưa xác nhận: chữ ký cam đoan và thông tin khoa/ngành; repo riêng tư chưa cấp quyền giảng viên.
-Không điền điểm rubric; giảng viên chấm theo bằng chứng.
-
-
-CẬP NHẬT HỒ SƠ NGÀY 31/10/2026
-Bản Word đã rà soát tiếp: N24DCDT082_DT067_NguyenThanhTan_BaoCao_CAP_NHAT.docx (SHA-256: 3AC8DD1FD5B0CAF1486755A98DA5B3131D9D24BFBB0F35695A91E96542E1F79B). Tệp BaoCao.docx chuẩn đang bị khóa bởi ứng dụng Word nên chưa thể thay. Sau khi đóng bản đang mở, dùng bản CAP_NHAT làm bản chính và xuất PDF mới. Không nộp PDF có hậu tố PDF_CU_KHONG_NOP.
-
-TÌNH TRẠNG NỘP
-Báo cáo hiện có A01–A09; còn ảnh A10/A11, chữ ký cam đoan, xác nhận khoa/ngành và PDF mới. Không điền điểm rubric.
-
+A01–A11: đã có ảnh thật.
+Còn sinh viên rà soát/ký cam đoan, xác nhận khoa/ngành; cấp quyền repo cho giảng viên nếu cần; xuất PDF mới và cập nhật mục lục/số trang.
+Không điền điểm rubric.

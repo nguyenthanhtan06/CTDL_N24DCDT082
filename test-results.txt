@@ -1,14 +1,16 @@
-Kiểm thử bộ mã DT067 — chạy 30/10/2026
+Kiểm thử DT067 — kết quả clone sạch
+Ngày chạy: 30/10/2026
+Commit C/S: 17d0a9c68d8b915fa9d0327eecef36e57efa552a
 Môi trường: Python 3.14.7; Streamlit 1.63.0; Pandas 3.0.5
 
-Lệnh: python -m unittest -v test_postfix.py
-Kết quả: Ran 5 tests — OK (5/5 phương thức; phương thức bắt buộc chứa 12 subTest độc lập).
+python -m unittest -v test_postfix.py
+Ran 5 tests — OK (5/5 phương thức; phương thức bắt buộc chứa 12 subTest độc lập).
 
-Lệnh: python run_dashboard_cases.py (gọi app.run_test_suite())
-Kết quả: TOTAL=12 PASS=12 FAIL=0
+app.run_test_suite()
+TOTAL=12 PASS=12 FAIL=0
 VD01=37 PASS; VD02=512 PASS; TK01=5 PASS; TK02=-5 PASS
 BIEN01=3 PASS; BIEN02=-3 PASS; BIEN03=1 PASS; LOI01=chia cho 0 PASS
 KT09=thiếu toán hạng PASS; KT10=dư toán hạng PASS; KT11=token không hợp lệ PASS; KT12=tràn Int128 PASS
 
-Bản mã: app.py hiện tại, SHA-256 D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35.
-Clone SHA S riêng và chụp minh chứng A10 chưa thực hiện.
+SHA-256 app.py: D37E251DE761BC9C61DA536AF5B872873BBAB878CFB592F2EA17F872FE4CEB35
+Ảnh chạy clone sạch A10 và ảnh repo GitHub A11 được lưu trong anh_ket_qua/.
